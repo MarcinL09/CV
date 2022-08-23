@@ -15,8 +15,8 @@ body {
 
 .header-text {
     position: relative;
-    top: 5%;
-    left: 25%;
+    top: 2%;
+    left: 20%;
 }
 .header-bg {
     position: absolute;
@@ -38,16 +38,20 @@ main {
     padding-bottom: 5px;
 }
 
-.nav {
-    position: absolute;
+.nav-item {
+    position: relative;
     top: 30%;
-    left:27%;
+    left: 27%;
     font-size: 26px;
-    /*background-color: white;*/
-    word-spacing: 60px;
-
-
+    /*!*background-color: white;**/
+    display: inline-block;
+    margin-right: 30px;
 }
+    .nav-item a:hover {
+        color: white;
+        background-color: black;
+    }
+
 .nav a {
     text-decoration: none;
 }
