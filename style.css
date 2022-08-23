@@ -26,3 +26,29 @@ body {
     height: 100%;
     background-image: url("./img/bitcoin-gbf78b2c9f_1920.jpg");
 }
+
+main {
+    position: relative;
+    left: 10%;
+    width: 80%;
+}
+
+.exp {
+    border-bottom: 3px solid black;
+    padding-bottom: 5px;
+}
+
+.nav {
+    position: absolute;
+    top: 30%;
+    left:27%;
+    font-size: 26px;
+    /*background-color: white;*/
+    word-spacing: 60px;
+
+
+}
+.nav a {
+    text-decoration: none;
+}
+
