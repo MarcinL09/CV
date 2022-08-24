@@ -1,32 +1,25 @@
 body {
     background-color: white;
 }
-
 .header-img {
-    position: relative;
-    top: 20%;
-    left: 10%;
+    display: flex;
+    margin-top: 5%;
+    margin-left: 10%;
     width: 80%;
     height: 250px;
-    background-color: rgba(128, 130, 133, 0.66);
+    background-color: rgba(224, 223, 223, 0.82);
     border-radius: 25px 0 25px 0;
     overflow: hidden;
 }
-
 .header-text {
-    position: relative;
-    top: 2%;
-    left: 20%;
+    margin-top: 2%;
+    margin-left: 5%;
 }
 .header-bg {
-    position: absolute;
-    top: 50%;
-    transform: translate(0,-50%);
     width: 20%;
     height: 100%;
     background-image: url("./img/bitcoin-gbf78b2c9f_1920.jpg");
 }
-
 main {
     position: relative;
     left: 10%;
@@ -43,7 +36,6 @@ main {
     top: 30%;
     left: 27%;
     font-size: 26px;
-    /*!*background-color: white;**/
     display: inline-block;
     margin-right: 30px;
 }
