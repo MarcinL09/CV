@@ -25,19 +25,17 @@ main {
     left: 10%;
     width: 80%;
 }
-
-.exp {
+.h-exp {
     border-bottom: 3px solid black;
     padding-bottom: 5px;
 }
-
 .nav-item {
     position: relative;
     top: 30%;
     left: 27%;
-    font-size: 26px;
+    font-size: 20px;
     display: inline-block;
-    margin-right: 30px;
+    margin-right: 50px;
 }
     .nav-item a:hover {
         color: white;
@@ -47,4 +45,18 @@ main {
 .nav a {
     text-decoration: none;
 }
+.exp {
+    display: flex;
+    font-size: 18px;
+
+}
+.left-side {
+    justify-content: flex-start;
+    margin-right: 100px;
+}
+
+.right-side {
+    justify-content: flex-end;
+}
+
 
