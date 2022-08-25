@@ -1,5 +1,6 @@
 body {
     background-color: white;
+    font-family: 'Open Sans', sans-serif;
 }
 .header-img {
     display: flex;
@@ -25,10 +26,11 @@ main {
     left: 10%;
     width: 80%;
 }
-.h-exp {
+h3, h4 {
     border-bottom: 3px solid black;
     padding-bottom: 5px;
 }
+
 .nav-item {
     position: relative;
     top: 30%;
@@ -59,4 +61,11 @@ main {
     justify-content: flex-end;
 }
 
-
+footer {
+    margin-left: 20%;
+    font-size: 12px;
+}
+strong {
+    font-weight: bold;
+    font-size: 22px;
+}
