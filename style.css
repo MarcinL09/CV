@@ -22,7 +22,8 @@ body {
     height: 100%;
     border-radius: 50%;
     background-image: url("./img/photo.jpg");
-    object-fit: fill;
+    background-size: cover;
+    background-position: center;
 }
 main {
     margin-left: 10%;
