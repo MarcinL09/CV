@@ -60,12 +60,12 @@ h3, h4 {
 
 }
 .left-side {
-    justify-content: flex-start;
-    margin-right: 100px;
+    margin-right: 70px;
+    width: 10%;
 }
 
 .right-side {
-    justify-content: flex-end;
+    width: 80%;
 }
 
 footer {
