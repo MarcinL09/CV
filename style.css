@@ -38,9 +38,7 @@ h3, h4 {
     justify-content: center;
     width: 80%;
     margin-left: 10%;
-
 }
-
 .nav-item {
     font-size: 20px;
     display: inline-block;
@@ -50,24 +48,20 @@ h3, h4 {
         color: white;
         background-color: black;
     }
-
 .nav a {
     text-decoration: none;
 }
 .exp {
     display: flex;
     font-size: 18px;
-
 }
 .left-side {
     margin-right: 70px;
     width: 10%;
 }
-
 .right-side {
     width: 80%;
 }
-
 footer {
     margin-left: 20%;
     font-size: 12px;
