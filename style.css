@@ -1,7 +1,11 @@
 body {
+    display: flex;
+    justify-content: center;
     background-color: white;
     font-family: 'Open Sans', sans-serif;
-    width: 1500px;
+}
+.wrapper {
+    width: 90%;
 }
 .header-img {
     display: flex;
@@ -21,8 +25,10 @@ body {
     width: 20%;
     height: 100%;
     border-radius: 50%;
+    background-color: white;
     background-image: url("./img/photo.jpg");
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
 }
 main {
@@ -34,8 +40,8 @@ h3, h4 {
     padding-bottom: 5px;
 }
 .nav {
-    display: flex;
-    justify-content: center;
+    /*display: flex;*/
+    /*justify-content: center;*/
     width: 80%;
     margin-left: 10%;
 }
@@ -52,7 +58,7 @@ h3, h4 {
     text-decoration: none;
 }
 .exp {
-    display: flex;
+    /*display: flex;*/
     font-size: 18px;
 }
 .left-side {
