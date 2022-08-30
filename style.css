@@ -87,3 +87,50 @@ footer {
     font-weight: bold;
     font-size: 22px;
 }
+
+@media (max-width: 1300px) {
+    .experience {
+        flex-direction: column;
+    }
+    .left-side {
+        width: 100%;
+    }
+    .nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+    .header-bg {
+        width: 100px;
+        height: 100px;
+
+}
+
+@media (max-width: 700px) {
+    .header-img {
+        height: 125px;
+    }
+    .header-bg {
+        width: 125px;
+        height: 125px;
+    }
+}
+
+@media (max-width: 320px) {
+    .header-img {
+        height: 100px;
+    }
+    .header-text h1 {
+        font-size: 17px;
+    }
+    .title {
+        font-size: 14px;
+    }
+    .header-bg {
+        width: 100px;
+        height: 100px;
+    }
+    .nav ul li {
+        font-size: 14px;
+        padding-left: 40px;
+    }
+}
